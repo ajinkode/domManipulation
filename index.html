@@ -17,12 +17,27 @@
         <input type="radio" name="language" value="Python">
     </div>
 
-<script>
-    let msg = document.getElementById("message")
-    console.log(msg)
+    <div class="container">
+        <h1>First Heading</h1>
+        <h1>Second Heading</h1>
+        <h1>Third Heading</h1>
+        <h1>Fourth Heading</h1>
+        <h1>Fifth Heading</h1>
+    </div>
 
+<script>
+    //by id
+    let msg = document.getElementById("message")
+    console.log(msg) 
+
+    //by name
     let btn = document.getElementsByName("language")
     console.log(btn)
+
+    let hdg = document.getElementsByTagName("h1")
+    console.log(hdg)
+
+    //by tag name
 </script>
     
 </body>
