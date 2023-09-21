@@ -7,12 +7,22 @@
 </head>
 <body>
     <div>
-        <p id="message">JavScript DOM</p>
+        <p id="message">JavaScript DOM</p>
+    </div>
+
+    <div class="container">
+        <label for="JS">JS</label>
+        <input type="radio" name="language" value="JS">
+        <label for="Python">Python</label>
+        <input type="radio" name="language" value="Python">
     </div>
 
 <script>
     let msg = document.getElementById("message")
     console.log(msg)
+
+    let btn = document.getElementsByName("language")
+    console.log(btn)
 </script>
     
 </body>
